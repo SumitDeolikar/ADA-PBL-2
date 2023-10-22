@@ -17,6 +17,12 @@ bool isPossible(vector<int> arr, int n, int m, int mid) {
             }
             pageSum = arr[i];
         }
+        if(studentCount > m) {
+            return false;
+        }
+    }
+    return true;
+}
 }
 
 int allocateBooks(vector<int> arr, int n, int m) {
