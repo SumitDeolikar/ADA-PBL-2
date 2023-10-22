@@ -23,7 +23,7 @@ bool isPossible(vector<int> arr, int n, int m, int mid) {
     }
     return true;
 }
-}
+
 
 int allocateBooks(vector<int> arr, int n, int m) {
     int s = 0;
