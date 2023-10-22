@@ -32,6 +32,9 @@ int allocateBooks(vector<int> arr, int n, int m) {
     for(int i = 0; i < n; i++) {
         sum += arr[i];
     }
+    int e = sum;
+    int ans = -1;
+    int mid = s + (e - s) / 2;
 }
 
 int main() {
